@@ -43,4 +43,8 @@ sp 2017 - moved out
 
 </td>
 	<td markdown="block">
+Due Wednesday, 9/20 at 11pm:
+
+* (repositories will be created this evening
+* [Homework #2](homework/02.html) 
 </td>
