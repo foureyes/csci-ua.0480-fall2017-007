@@ -13,8 +13,7 @@ hr {
 	<div class="panel-heading">Homework #3</div>
 	<div class="panel-body" markdown="block">
 
-# Creating a Tiny Web Framework, __Due Thursday, February 23rd by 11PM__
-
+# Creating a Tiny Web Framework, __Due Thursday, October 5th by 11PM__
 
 ## Overview
 
@@ -169,7 +168,7 @@ s += '\r\n\r\n';                     // empty line to mark the boundary between 
 const req = new Request(s);
 </code></pre>
 
-The string passed in will be parsed into the properties shown below.
+The string passed in will be parsed into the properties shown below. __You can assume that you will always receive a valid http request__
 
 <hr>
 
@@ -410,7 +409,7 @@ There's one last method that we'll implement on `Response`:
 * implementation details
     * use the `fs` module and the [`readFile` function](https://nodejs.org/api/fs.html#fs_fs_readfile_file_options_callback) to do this instead of using `readline` like we did previously (this is because we may be handling binary data)
     * `fileName` is searched for in `./public`
-    * consequently, you can prefix the `fileName` with `__dirname + '/../public'` to get an absolute path to the file
+    * consequently, you __should__ prefix the `fileName` with `__dirname + '/../public'` to get an absolute path to the file
     * you'll have to set the content type based on the file (using the file's extension is adequate for this assignment)
     * minimally, support the following extensions and file types:
         1. `jpeg` or `jpg`: `image/jpeg`

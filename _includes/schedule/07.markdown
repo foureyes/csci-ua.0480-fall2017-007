@@ -34,7 +34,9 @@ MDN Documentation on HTTP
 </td>
 	<td markdown="block">
 
-Homework #03 to be posted this evening
+Due Thursday, 10/5, by 11PM
+
+* [Homework #03](homework/03.html)
 
 <!--
 * [](assignments/.html)
