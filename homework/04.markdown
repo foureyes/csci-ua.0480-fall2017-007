@@ -1,3 +1,12 @@
+---
+layout: homework
+title: CSCI-UA.0480 - Homework #4
+---
+
+<div class="panel panel-default">
+	<div class="panel-heading">Homework #4</div>
+	<div class="panel-body" markdown="block">
+
 <h1 style="background-color:#ff999;">DRAFT - To Be Fully Posted 10/5 at 11pm</h1>
 
 ## Homework #4
@@ -331,4 +340,8 @@ The create form requires a POST (since we're dealing with adding data). [Read th
     2. `POST` the form
     3. `GET` the original form again
 * (2 and 3 happen right after you press the submit button). The entire interaction should look like this:
+
+</div>
+
+</div>
 
