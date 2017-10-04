@@ -9,7 +9,6 @@
 * [More About Get](slides/10/review-get.html)
 * [Forms](slides/10/forms.html)
 * [Sessions and Cookies](slides/10/sessions.html)
-* Homework #4 Demo
 
 <!-- 
 * [Maybe Static Sites, Remote Server](slides/08/static.html)
@@ -29,11 +28,12 @@ https://expressjs.com/en/guide/writing-middleware.html
 </td>
 	<td markdown="block">
 
+{% comment %}
 Due <strike>Thursday 3/9</strike> Friday 3/10, 11PM 
-
 (__but you should probably try to get most of it down BEFORE the midterm on 3/8__)
+{% endcomment %}
 
-* [Homework #4](homework/04.html)
+
 
 
 </td>

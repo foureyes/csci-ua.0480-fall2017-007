@@ -6,6 +6,7 @@
 * [Express (from previous slides)](slides/08/express.html#/26)
 * [Templating](slides/09/templating.html)
 * [Express Request and Response](slides/09/request-response.html) (start [With Web Server/Web App](slides/09/request-response.html#/7))
+* Homework #4 Demo
 
 <!-- 
 * [Forms](slides/09/forms-2.markdown)
@@ -28,6 +29,10 @@
 -->
 </td>
 	<td markdown="block">
+Homework #4 Due 10/12 at 11pm
+
+* [Homework #4](homework/04.html) Draft
+* (To be Posted Fully Thursday Evening, 10/5)
 
 {% comment %}
 (Depending on what we get through today!)
