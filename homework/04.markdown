@@ -252,7 +252,7 @@ Instead of using the url string to pass in parameters, you can try using the for
 
 The resulting interaction should look like this (__notice that the query string parameters are added to the url on form submission__):
 
-![paths](/csci-ua.0480-fall2017-007/resources/img/hw04-colors-03-form.gif)
+![form](/csci-ua.0480-fall2017-007/resources/img/hw04-colors-03-form.gif)
 
 ### Part 3 - AITunes
 
@@ -353,7 +353,7 @@ In your `get` route, filter the objects passed to render by using the values pas
 
 The interaction should look like this:
 
-![filter](/csci-ua.0480-fall2017-007/resources/img/hw04-bands-01-filter.gif)
+![filter](/csci-ua.0480-fall2017-007/resources/img/hw04-bandz-01-filter.gif)
 
 #### Create a Band Recommendation Form
 
@@ -382,7 +382,7 @@ The create form requires a POST (since we're dealing with adding data). [Read th
 
 The entire interaction should look like this:
 
-![add](/csci-ua.0480-fall2017-007/resources/img/hw04-bands-02-add.gif)
+![add](/csci-ua.0480-fall2017-007/resources/img/hw04-bandz-02-add.gif)
 
 </div>
 
