@@ -228,7 +228,7 @@ In this part, you'll create a color class, read in a file of color names and hex
 
 See the image below for an example of manipulating the query string to generate colors... as well as an example of an error message
 
-![paths](/csci-ua.0480-fall2017-007/resources/img/hw04-colors-02-urls.gif)
+![urls](/csci-ua.0480-fall2017-007/resources/img/hw04-colors-02-url.gif)
 
 #### Submitting the Form
 

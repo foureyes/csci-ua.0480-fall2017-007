@@ -31,8 +31,7 @@
 	<td markdown="block">
 Homework #4 Due 10/12 at 11pm
 
-* [Homework #4](homework/04.html) Draft
-* (To be Posted Fully Thursday Evening, 10/5)
+* [Homework #4](homework/04.html) 
 
 {% comment %}
 (Depending on what we get through today!)
