@@ -334,7 +334,7 @@ app.use(session(sessionOptions));
 
 Check out the [docs for details on all of the options](https://github.com/expressjs/session). The ones that we set explicitly are:
 
-* __secret__ - used to sign session the session id cookie to prevent tampering (and possibly to ensure length/complexity to make _unguessable_)
+* __secret__ - used to sign the session id cookie to prevent tampering (and possibly to ensure length/complexity to make _unguessable_)
 * __saveUnitialized__: false - don't save new empty session (to preserve space)
 * __resave__: false - prevents session data from being resaved if session data is unmodified
 
