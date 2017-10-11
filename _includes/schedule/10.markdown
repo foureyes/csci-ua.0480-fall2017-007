@@ -10,6 +10,9 @@
 * [Forms](slides/10/forms.html)
 * [Sessions and Cookies](slides/10/sessions.html)
 
+Class Notes / Project
+
+* [Express Get, Post and Middleware (HW 04, Part 2 Hint)](resources/handouts/get-post-middleware.zip)
 <!-- 
 * [Maybe Static Sites, Remote Server](slides/08/static.html)
 * [Maybe Debugging](slides/09/debugging.html)
