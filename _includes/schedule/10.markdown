@@ -10,9 +10,14 @@
 * [Forms](slides/10/forms.html)
 * [Sessions and Cookies](slides/10/sessions.html)
 
-Class Notes / Project
+__Class Notes / Project__
 
 * [Express Get, Post and Middleware (HW 04, Part 2 Hint)](resources/handouts/get-post-middleware.zip)
+
+__Midterm Practice__
+
+* [midterm practice](resources/handouts/midterm/midterm_1_practice.pdf)
+* [midterm practice solutions](resources/handouts/midterm/midterm_1_practice_solutions.pdf)
 <!-- 
 * [Maybe Static Sites, Remote Server](slides/08/static.html)
 * [Maybe Debugging](slides/09/debugging.html)
