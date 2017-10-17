@@ -1,5 +1,8 @@
 	<td markdown="block">
 
+* [Notes from midterm review](resources/handouts/midterm/midterm-review.zip)
+
+{% comment %}
 We're a class behind, so we'll do the following from the previous classes: 
 
 * [Middleware](slides/09/middleware.html)
@@ -18,6 +21,7 @@ Unlikely that we'll get to this:
 
 * [Project Layout and Scaffolding](slides/11/scaffolding.html)
 * [Mongo DB](slides/14/mongo.html)
+{% endcomment %}
 
 </td>
 	<td markdown="block">
