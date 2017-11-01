@@ -257,9 +257,7 @@ __EXAM #1 (Midterm Exam)__
 * Deployment
 
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
 {% include schedule/16.markdown %}
-{% endcomment %}
 </tr>
 
 
