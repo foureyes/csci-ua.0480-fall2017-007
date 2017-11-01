@@ -10,28 +10,28 @@ nav-state: "Final Project Deployment"
 }
 
 pre {
-	display: inline-block;
-	padding: 9.5px;
-	margin: 0 0 10px;
-	font-size: 15px;
-	word-break: break-all;
-	word-wrap: break-word;
-	background-color: rgb(224, 229, 234);	
-	color: #001446;
-	border-radius: 4px;
-	border: none !important;
+  display: inline-block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 15px;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: rgb(224, 229, 234);  
+  color: #001446;
+  border-radius: 4px;
+  border: none !important;
 }
 
 #final h3 {
 }
 
 section {
-	padding-left: 1em;
+  padding-left: 1em;
 }
 </style>
 <div id="final" class="panel panel-default">
-	<div class="panel-heading">Final Project</div>
-	<div class="panel-body" markdown="block">
+  <div class="panel-heading">Final Project</div>
+  <div class="panel-body" markdown="block">
 
 ## Final Project Deployment
 
@@ -62,8 +62,8 @@ To determine which port number and server you'll use:
 2. Go to <code>Assignments</code>
 3. Click on <code>Milestone 2</code>
 4. Find your NetID in the table
-	* The port number listed is for your express application
-	* Write this number down... you'll use this in a later step
+  * The port number listed is for your express application
+  * Write this number down... you'll use this in a later step
     * The server domain listed will be the server that you deploy on
     * Write this down; you'll need it to connect via ssh!
 
@@ -81,7 +81,7 @@ We'll be using ssh, a commandline tool that allows you to login to and run comma
     * use your netid to log in
     * save the credentials that you receive
     * if the above does not work or if you need to reset the password that was given to you from the above page, you can go to [https://cims.nyu.edu/webapps/password/reset](https://cims.nyu.edu/webapps/password/reset)
-	* if you receive an error saying that your account does not exist, email helpdesk@cims.nyu.edu ... and cc me on your correspondence so that I'm aware that you're having account issues
+  * if you receive an error saying that your account does not exist, email helpdesk@cims.nyu.edu ... and cc me on your correspondence so that I'm aware that you're having account issues
         * make sure to specify that you've already tried your netid here: https://cims.nyu.edu/webapps/password
         * and that you've tried resetting your password here: https://cims.nyu.edu/webapps/password
 2. To access your assigned server, you must first ssh to `access.cims.nyu.edu`... and then from there, ssh to your _actual_ server:
@@ -89,22 +89,22 @@ We'll be using ssh, a commandline tool that allows you to login to and run comma
     * once you've logged in... use ssh again
     * `ssh your_username@your_assigned_server` 
 3. Once you've logged in, create the following directories in your home directory: 
-	* <code>var/log</code> a directory to dump your application logs
-	* <code>usr/local/lib</code> to store all of your "global" node modules
-	* <code>opt</code> ... as the directory where you'll install your web application
-	* run the following command to create the directories specified above (note that `~` means your _home directory_):
+  * <code>var/log</code> a directory to dump your application logs
+  * <code>usr/local/lib</code> to store all of your "global" node modules
+  * <code>opt</code> ... as the directory where you'll install your web application
+  * run the following command to create the directories specified above (note that `~` means your _home directory_):
         <br>
-		<pre><code>mkdir -p ~/var/log
+    <pre><code>mkdir -p ~/var/log
 mkdir -p ~/usr/local/lib
 mkdir ~/opt</code></pre>
 
 4. Verify that these directories exist by running:
 
-	<pre><code>ls ~</code></pre>
+  <pre><code>ls ~</code></pre>
 
-	Should show:
+  Should show:
 
-	<pre><code>opt  usr  var</code></pre>
+  <pre><code>opt  usr  var</code></pre>
 
 5. <span class="warning">The version of node on the servers currently doesn't support ES6.</span>
     * consequently, you'll have to install the most current version of node
@@ -126,7 +126,7 @@ You'll have your own database on an instance of __mongod__ running on one of Cou
 2. __Make sure you keep the password that's given to you after you follow the above instructions.__ (ideally, in a password safe)
 3. To test connectivity, you can try connecting to your database while your ssh'd in to the server:
 
-	<pre><code>module load mongodb-3.2.0
+  <pre><code>module load mongodb-3.2.0
 mongo &lt;dbname&gt; --host class-mongodb.cims.nyu.edu -u &lt;username&gt; -p
 </code></pre>
 
@@ -169,15 +169,15 @@ __To add an external configuration file, follow these steps__ &rarr;
 if (process.env.NODE_ENV === 'PRODUCTION') {
     // if we're in PRODUCTION mode, then read the configration from a file
     // use blocking file io to do this...
-    var fs = require('fs');
-    var path = require('path');
-    var fn = path.join(__dirname, 'config.json');
-    var data = fs.readFileSync(fn);
+    const fs = require('fs');
+    const path = require('path');
+    const fn = path.join(__dirname, 'config.json');
+    const data = fs.readFileSync(fn);
 
     // our configuration file will be in json, so parse it and set the
     // conenction string appropriately!
-    var conf = JSON.parse(data);
-    var dbconf = conf.dbconf;
+    const conf = JSON.parse(data);
+    let dbconf = conf.dbconf;
 } else {
     // if we're not in PRODUCTION mode, then use
     dbconf = 'mongodb://localhost/YOUR_DATABASE_NAME_HERE';
@@ -217,8 +217,8 @@ if (process.env.NODE_ENV === 'PRODUCTION') {
 
 2. Clone your repository into your opt directory (you can find your full repository name on GitHub). Remember to substitute <code>REPOSITORY_NAME</code> with your actual repository name:
 
-	<pre><code>cd ~/opt
-git clone https://github.com/nyu-csci-ua-0480-010-spring-2016/REPOSITORY_NAME</code></pre>
+  <pre><code>cd ~/opt
+git clone https://github.com/nyu-csci-ua-0480-SECTION-SEMESTER-YEAR/REPOSITORY_NAME</code></pre>
 
 3. Alternatively, you can use <code>sftp</code> or <code>scp</code> to transfer files to the server
 
@@ -254,29 +254,29 @@ Again, <span class="warning">make sure you're logged in to you remote server (li
     <br>
     <pre><code>nano config.json</code></pre>
 2. Then add your connection string so that it includes username and password (that you retrieved above):
-	<br>
+  <br>
     <pre><code>{"dbconf":"mongodb://jversoza:my_password@class-mongodb.cims.nyu.edu/jversoza"}</code></pre>
 3. <span class="warning">Remember, the name of your database is the same as your username!</span>
 4. Save it by <code>CONTROL+O</code> to _write out_ the file. Press <code>RETURN/ENTER</code> to accept the file name.
 5. Quit <code>nano</code> by <code>CONTROL+X</code>
 6. Test your application. Substitute <code>APP_PORT_NUMBER</code> with the port number you retrieved from Part 1 and add the environment variable, `NODE_ENV`.
-	* Run <code>bin/www</code> or... if you didn't use express generator, use <code>node app.js</code>. __Don't use nodemon to run it.__
-		<br>
+  * Run <code>bin/www</code> or... if you didn't use express generator, use <code>node app.js</code>. __Don't use nodemon to run it.__
+    <br>
         <pre><code>PORT=APP_PORT_NUMBER NODE_ENV=PRODUCTION bin/www</code></pre>
-	* If it starts up fine, try connecting to it from your browser: 
+  * If it starts up fine, try connecting to it from your browser: 
         <br>
-		<pre><code>http://server_name:APP_PORT_NUMBER/</code></pre>
+    <pre><code>http://server_name:APP_PORT_NUMBER/</code></pre>
 6. Troubleshooting:
-	* If you see the following error 
+  * If you see the following error 
         <br>
-		<pre><code data-trim contenteditable>/home/net_id/opt/final-project/node_modules/mongoose/node_modules/mongodb/lib/server.js:235
+    <pre><code data-trim contenteditable>/home/net_id/opt/final-project/node_modules/mongoose/node_modules/mongodb/lib/server.js:235
         process.nextTick(function() { throw err; })
 Error: connect ECONNREFUSED
     at errnoException (net.js:905:11)
     at Object.afterConnect [as oncomplete] (net.js:896:19)</code></pre>
-		You can't connect to your database; double check your mongoose connection string... and review part 3.
-	* If you see <code>Error: listen EADDRINUSE</code> ... the port you've been assigned is already in use. Either your application is already running or someone inadvertently is running there application on your port. Contact me if it's the latter.
-	
+    You can't connect to your database; double check your mongoose connection string... and review part 3.
+  * If you see <code>Error: listen EADDRINUSE</code> ... the port you've been assigned is already in use. Either your application is already running or someone inadvertently is running there application on your port. Contact me if it's the latter.
+  
 </section>
 
 ### Part 8: Running your project as a daemon
@@ -289,28 +289,28 @@ In order to have your project run even when you're not logged in to the server t
 
 1. Install <code>forever</code>:
 
-	<pre><code>cd ~/usr/local/lib/
+  <pre><code>cd ~/usr/local/lib/
 npm install forever</code></pre>
 
 2. Run your app with <code>forever start</code>. Substitute <code>APP_PORT_NUMBER</code> with your actual port number. Note the <code>-o</code> and <code>-e</code> options; they specify where your application's output (debug and error output) should go. The first version is with `app.js` (without express generator), and the second is with `bin/www`
 
-	<pre><code>cd ~/opt/final-project/
+  <pre><code>cd ~/opt/final-project/
 export PORT=APP_PORT_NUMBER; export NODE_ENV=PRODUCTION; ~/usr/local/lib/node_modules/.bin/forever -o ~/var/log/app.log -e ~/var/log/app_error.log start app.js</code></pre>
 
-	<pre><code>cd ~/opt/final-project/
+  <pre><code>cd ~/opt/final-project/
 export PORT=APP_PORT_NUMBER; export NODE_ENV=PRODUCTION; ~/usr/local/lib/node_modules/.bin/forever -o ~/var/log/app.log -e ~/var/log/app_error.log start bin/www</code></pre>
 
 3. Check that everything started up fine by looking for the process id, and then checking the log files.
 
-	<pre><code>ps aux | grep forever | grep -v grep</code></pre>
+  <pre><code>ps aux | grep forever | grep -v grep</code></pre>
 
-	Your application would usually log debug lines and errors to the console. However, since you're running your app as a daemon, all of that output is now dumped into log files, which are in <code>~/var/log</code>. To view the last few lines of the error and app log:
+  Your application would usually log debug lines and errors to the console. However, since you're running your app as a daemon, all of that output is now dumped into log files, which are in <code>~/var/log</code>. To view the last few lines of the error and app log:
 
-	<pre><code>tail ~/var/log/app.log ~/var/log/app_error.log</code></pre>
+  <pre><code>tail ~/var/log/app.log ~/var/log/app_error.log</code></pre>
 
 4. Listing managed apps and Stopping <code>forever</code> / shutting down your app:
 
-	<pre><code data-trim contenteditable># show managed apps
+  <pre><code data-trim contenteditable># show managed apps
 ~/usr/local/lib/node_modules/.bin/forever list
 # stop all apps
 ~/usr/local/lib/node_modules/.bin/forever stopall
@@ -318,17 +318,17 @@ export PORT=APP_PORT_NUMBER; export NODE_ENV=PRODUCTION; ~/usr/local/lib/node_mo
 
 5. Viewing error logs and debug statements.
 
-	For all logs:
+  For all logs:
 
-	<pre><code>cat ~/var/log/app.log ~/var/log/app_error.log</code></pre>
+  <pre><code>cat ~/var/log/app.log ~/var/log/app_error.log</code></pre>
 
-	For just the last few lines:
+  For just the last few lines:
 
-	<pre><code>tail ~/var/log/app.log ~/var/log/app_error.log</code></pre>
+  <pre><code>tail ~/var/log/app.log ~/var/log/app_error.log</code></pre>
 
 6. Viewing error logs and debug statements _as they happen_ use the <code>-f</code> flag with <code>tail</code>. __This is super useful for debugging.__ 
 
-	<pre><code>tail ~/var/log/app.log ~/var/log/app_error.log</code></pre>
+  <pre><code>tail ~/var/log/app.log ~/var/log/app_error.log</code></pre>
 
 7. (Optional) Want to have <code>forever</code> accessible in your path? Add <code>PATH=$PATH:home/jjv222/usr/local/lib/node_modules/.bin/</code> to your <code>.bash_profile</code>
 
@@ -339,8 +339,8 @@ export PORT=APP_PORT_NUMBER; export NODE_ENV=PRODUCTION; ~/usr/local/lib/node_mo
 
 1. If you'd like to __reinstall__  your application (again, with <code>REPOSITORY_NAME</code> replaced with your repository name):
 
-	1. <code>rm -rf ~/opt/REPOSITORY_NAME</code>
-	2. go back to Part 5
+  1. <code>rm -rf ~/opt/REPOSITORY_NAME</code>
+  2. go back to Part 5
 
 2. If you'd like to simply __redeploy__ or __update__ your application, run <code>git pull</code> to update your code on the server:
     1. `cd ~/opt/REPOSITORY_NAME`
@@ -349,3 +349,4 @@ export PORT=APP_PORT_NUMBER; export NODE_ENV=PRODUCTION; ~/usr/local/lib/node_mo
 </section>
 </div>
 </div>
+
