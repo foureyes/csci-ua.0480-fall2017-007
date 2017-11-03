@@ -195,7 +195,7 @@ Choose at least __8 points__ worth of these following topics (research and imple
 ### 11/09 at 11pm - Milestone 2 - Initial Deployment and First Form (20 points)
 
 1. attempt to deploy your code to Courant's _compute_ and assignment servers by following [instructions](homework/deploy.html)
-2. <span class="warning">use [this form to submit your deployed site](https://docs.google.com/forms/d/e/1FAIpQLSe299kscG9jNjh7p7gHmdYOzy2MVmSiE3FJibi3h3iGRMRIRA/viewform)</span>
+2. <span class="warning">use [this form to submit your deployed site](https://docs.google.com/forms/d/e/1FAIpQLSfxPUKkpkk5UMwtUarE4kMBGplYg7piTIIdH_ASWm_e9A2ZtQ/viewform)</span>
 3. your submission won't be graded unless the form above is sent with urls to your deployed site
 4. your deployed site should contain the following progress:
     * __one working form (that is not login or registration)__ 
