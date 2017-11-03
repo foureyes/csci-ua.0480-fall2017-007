@@ -23,6 +23,12 @@ Password Hashing
 * [Salted Password Hashing - Doing it Right](https://crackstation.net/hashing-security.htm)
 </td>
 	<td markdown="block">
+
+Due Thursday, November 9th at 11PM
+
+* [Homework #06](homework/06.html) 
+* [Milestone #2 (Deployment)](final-project.html#milestone2)
+
 {% comment %}
 Due Thursday, November 3rd at 11PM
 
