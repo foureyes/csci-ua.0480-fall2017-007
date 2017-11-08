@@ -1,7 +1,5 @@
 	<td markdown="block">
 
-Slides
-
 {% comment %}
 * [About Class #17](slides/17/meta.html)
 	* nodemon demo
@@ -13,13 +11,12 @@ Slides
 {% endcomment %}
 
 
-* Quick authentication and SSL review
-* Midterm exam 
-* Homework extra credit
 * [HTML Primer, JavaScript and the Browser](slides/17/javascript-browser.html)
 * [The Document Object Model](slides/17/dom.html)
-* [DOM Continued](slides/17/dom-continued.html)
+* [DOM Continued sample markup](code/dom-continued.html)
 * [Attributes](slides/17/attributes.html)
+* [Modifying and Adding Elements](slides/18/modifying-creating.html)
+
 
 {% comment %}
 Midterm Exam - Solution Sets
@@ -61,9 +58,11 @@ In class activity
 * [Instructions / slides](slides/17/dom.html#/14)
 {% endcomment %}
 
+{% comment %}
 Due Saturday, April 8th at 11PM
 
 * [Homework #06](homework/06.html)
 * [Milestone #2 (Deployment)](final-project.html#milestone2)
+{% endcomment %}
 
 </td>

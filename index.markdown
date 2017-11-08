@@ -252,8 +252,9 @@ __EXAM #1 (Midterm Exam)__
 <!-- ------------ --><a name="16"></a>
 <tr><td>16</td><td><strong>Nov 01</strong><br>Wed</td>
 <td markdown="block">
-* HTML Primer, JavaScript and the Browser
-* The Document Object Model
+
+* Authentication
+* Authentication Library
 * Deployment
 
 </td>
@@ -264,11 +265,13 @@ __EXAM #1 (Midterm Exam)__
 <!-- ------------ --><a name="17"></a>
 <tr><td>17</td><td><strong>Nov 06</strong><br>Mon</td>
 <td markdown="block">
+
+* HTML Primer, JavaScript and the Browser
+* The Document Object Model
 * Manipulating Elements
+
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
 {% include schedule/17.markdown %}
-{% endcomment %}
 </tr>
 
 
@@ -281,9 +284,7 @@ __EXAM #1 (Midterm Exam)__
 * CSS
 
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
 {% include schedule/18.markdown %}
-{% endcomment %}
 </tr>
 
 
