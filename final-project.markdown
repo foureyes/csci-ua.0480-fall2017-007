@@ -242,7 +242,6 @@ Note - this due date may change!
 <br>
 <br>
 <br>
-{% endcomment %}
 
 ### __11/29 11PM__ - Final Project Complete and Code is fully  _Deployed_ 
 {% comment %}
