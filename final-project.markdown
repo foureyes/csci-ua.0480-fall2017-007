@@ -213,26 +213,26 @@ Choose at least __8 points__ worth of these following topics (research and imple
 <br>
 
 
-### 11/15 at 11pm - Milestone 3 - 2nd Form and More Progress on Research (20 points)
+### 11/17 at 11pm - Milestone 3 - 2nd Form and More Progress on Research (20 points)
 
-{% comment %}
+Note - this due date may change!
+
 1. make at least 3 additional commits to add:
     * your 2nd form / ajax interaction
     * make more progress on your research topics
-2. redeploy your code to Courant's server by running git pull and restarting forever
+2. redeploy your code to Courant's server by running git pull and restarting forever (__do not do this until you receive your milestone #2 grades__)
     1. `ssh` into linserv1 or linserv2 (remember, you have to go to access.cims.nyu.edu first)
     2. `cd` into your project directory (should be in `~/opt/NETID-final-project`)
     3. run `forever stopall` and `forever start bin/www` 
         * you'll have to use the full path to forever, likely `~/usr/local/node_modules/bin/forever`
         * and perhaps the full bath to `bin/www`
-3. [submit this form for milestone #3 to indicate urls](https://docs.google.com/a/nyu.edu/forms/d/e/1FAIpQLScIKAMNIuUBakdzhwLUGpZ7v8zSHDzykPIdWyzsqm3IkiV6Pg/viewform)
+3. __fill out form to submit assignment__ (form to be posted when milestone #2 grades are sent out); it will contain:
     * __both working forms or ajax interactions (that are not login or registration)__ 
     * a link to show code changes since milestone #2:
-        * start with the url to your repository: `https://github.com/nyu-csci-ua-0480-008-spring-2017/NETID-final-project/`
+        * start with the url to your repository: `https://github.com/nyu-csci-ua-0480-007-fall-2017/NETID-final-project/`
         * and append the following to the url: `compare/master@%7B04-09-17%7D...master`
-        * for example: `https://github.com/nyu-csci-ua-0480-008-spring-2017/NETID-final-project/compare/master@%7B04-09-17%7D...master`
+        * for example: `https://github.com/nyu-csci-ua-0480-007-fall-2017/NETID-final-project/compare/master@%7B04-09-17%7D...master`
                      
-
 
 
 
