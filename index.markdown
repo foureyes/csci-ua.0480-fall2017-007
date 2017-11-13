@@ -296,9 +296,7 @@ __EXAM #1 (Midterm Exam)__
 * APIs
 
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
 {% include schedule/19.markdown %}
-{% endcomment %}
 </tr>
 
 <!-- ------------ --><a name="20"></a>
