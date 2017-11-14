@@ -250,7 +250,7 @@ Note - this due date may change!
 * __project must be deployed__ on i6 (or other platform, such as Heroku, gomix, zeit, etc.)
     * if your application needs to be restarted while being graded; I will contact you
     * you will not receive a penalty for restarting after the due date
-* __the [final project form submission](https://docs.google.com/a/nyu.edu/forms/d/e/1FAIpQLSfUNe5P9bzNBA1Z03b6NDeZEXe2qRRYBeewNWN1VnbLSkwgQQ/viewform) must be filled out__ (if a form is not submitted, you will receive a 0 for your project)
+* __the [final project form submission](https://docs.google.com/forms/d/e/1FAIpQLScDIpNZn5ttc1vyeWiUR4WaH0murjAwrtBcl3i6AkOaab-VQw/viewform) must be filled out__ (if a form is not submitted, you will receive a 0 for your project)
 * late submissions:
     * +2 days 
     * 20% penalty
