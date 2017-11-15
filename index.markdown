@@ -306,9 +306,7 @@ __EXAM #1 (Midterm Exam)__
 * Promises
 * Maybe Fetch API
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
 {% include schedule/20.markdown %}
-{% endcomment %}
 </tr>
 
 
@@ -323,7 +321,9 @@ __EXAM #1 (Midterm Exam)__
 concat and min? grunt and/or gulp?
 {% endcomment %}
 </td>
+<td></td><td></td><td markdown="block"></td>{% comment %}
 {% include schedule/21.markdown %}
+{% endcomment %}
 </tr>
 
 <tr class="success"><td></td><td><strong>Nov 22</strong><br>Wed</td> <td markdown="block"> __No class (Thanksgiving Break)__ 
