@@ -14,7 +14,9 @@
 * {{site.book_js_5}} - Chapter 17 - HTML (Focus on the section on XMLHttpRequest)
 </td>
 	<td markdown="block">
-<!--
-* [](assignments/.html)
--->
+
+Due __Monday__, Nov 27th at 11PM 
+
+* [Homework #08](homework/08.html)
+
 </td>
