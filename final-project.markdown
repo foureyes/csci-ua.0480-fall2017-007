@@ -32,7 +32,8 @@ pre {
 	<div class="panel-heading">Final Project</div>
 	<div class="panel-body" markdown="block">
 
-# Final Project, Due __Wed, Nov 29th at 11pm__
+# Final Project, Due <strike>WED, Nov 29th at 11pm</strike> __MON, Dec 4th at 11pm__
+
 
 ## Overview 
 

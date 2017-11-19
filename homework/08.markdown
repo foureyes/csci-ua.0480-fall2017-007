@@ -3,10 +3,10 @@ layout: homework
 title: CSCI-UA.0480 - Homework #8
 ---
 <div class="panel panel-default">
-  <div class="panel-heading">Homework #6</div>
+  <div class="panel-heading">Homework #8</div>
   <div class="panel-body" markdown="block">
 
-# AJAX
+# AJAX - __Due Tuesday, November 28th by 11pm__
 
 ## Overview
 
