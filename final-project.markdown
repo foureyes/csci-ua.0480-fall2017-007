@@ -244,7 +244,7 @@ Note - this due date may change!
 <br>
 <br>
 
-### __11/29 11PM__ - Final Project Complete and Code is fully  _Deployed_ 
+### __12/4 11PM__ - Final Project Complete and Code is fully  _Deployed_ 
 {% comment %}
 
 * __all commits must be in by Thursday, April 27th__ (repositories will be closed early Friday morning)
