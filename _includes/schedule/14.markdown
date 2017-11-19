@@ -38,7 +38,7 @@ Due <strike>11/01</strike> 11/02
 * [Homework #05](homework/05.html)
 * [First milestone for Final Project](final-project.html#proposal)
 
-Due 11/29 
+Due <strike>11/29</strike> 12/4
 
 * [Final Project](final-project.html)
 
