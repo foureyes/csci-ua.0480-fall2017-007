@@ -108,7 +108,7 @@ could return:
 
 Putting everything together, this should look like (note that the network tab is open to show that pressing the button will show background requests being triggered):
 
-![ajax add](/csci-ua.0480-fall2017-007/resources/img/hw-8-filter.gif)
+![ajax add](/csci-ua.0480-fall2017-007/resources/img/hw08-rest-filter.gif)
 
 ### Adding New Restaurants
 
@@ -127,7 +127,7 @@ Putting everything together, this should look like (note that the network tab is
 
 For example (again, noting the requests in the network tab):
 
-![ajax add](/csci-ua.0480-fall2017-007/resources/img/hw-8-add.gif)
+![ajax add](/csci-ua.0480-fall2017-007/resources/img/hw08-rest-add.gif)
 
 ### (5 points) Validations! (Extra credit)
 
