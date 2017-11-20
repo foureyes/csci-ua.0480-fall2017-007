@@ -1,7 +1,11 @@
 	<td markdown="block">
 
-* [Ajax Part 2](slides/21/ajax-express.html)
-* [Promises](slides/21/promises.html)
+* Previous class on AJAX post
+* Previous class on Promises
+* AJAX Polling
+* Realtime Apps with Socket.io
+    * [Socket.io](slides/23/socketio.html)
+    * Example Code for Socket.io Chat to be Posted
 
 {% comment %}
 * [Example Code for AJAX Post](https://github.com/nyu-csci-ua-0480-001-fall-2016/examples/blob/master/class24/ajax-chat/public/javascripts/chatTime.js#L51)
@@ -30,6 +34,8 @@
 -->
 </td>
 	<td markdown="block">
+{% comment %}
+
 Due Saturday, April 22nd
 
 * [Homework #8](homework/08.html) - Last Homework!
@@ -39,4 +45,6 @@ Due Saturday, April 22nd
 * this is really short!
 
 __Of course, keep working on your final project!__
+
+{% endcomment %}
 </td>
