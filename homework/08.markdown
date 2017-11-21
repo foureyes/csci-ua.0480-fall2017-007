@@ -20,7 +20,7 @@ title: CSCI-UA.0480 - Homework #8
 Not all repositories had starter code pushed, and the ones that did had an error. __Before starting your work...__ you have to do one of two things:
 
 1. if you don't have the code, download the starter version (that already contains the correction outlined below) here:
-    * [homework08-starter-restaurants.zip](/csci-ua.0480-fall2017-007/homeworks/homework08-starter-restaurants.zip)
+    * [homework08-starter-restaurants.zip](/csci-ua.0480-fall2017-007/homework/homework08-starter-restaurants.zip)
 2. however, if you already have code in your repository, please make the following correction:
     * in `app.js`
     * move the line `app.use(express.urlencoded({extended: false}));`
