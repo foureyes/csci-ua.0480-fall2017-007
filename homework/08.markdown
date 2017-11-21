@@ -2,11 +2,28 @@
 layout: homework
 title: CSCI-UA.0480 - Homework #8
 ---
+<style>
+.warning {
+    background-color: #ffaabb;
+}
+</style>
+
+
 <div class="panel panel-default">
   <div class="panel-heading">Homework #8</div>
   <div class="panel-body" markdown="block">
 
 # AJAX - __Due Tuesday, November 28th by 11pm__
+
+## <span class="warning">Before Starting, Fix the Code!</span>
+
+Please make the following correction in the starter code in your repository:
+
+* in `app.js`
+* move the line `app.use(express.urlencoded({extended: false}));`
+* so that it's before `const placesRoutes = require('./routes/places');`
+* see @491 on piazza for original student post
+
 
 ## Overview
 
