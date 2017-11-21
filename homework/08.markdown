@@ -15,14 +15,17 @@ title: CSCI-UA.0480 - Homework #8
 
 # AJAX - __Due Tuesday, November 28th by 11pm__
 
-## <span class="warning">Before Starting, Fix the Code!</span>
+## <span class="warning">First ... Fix or Download the Code!</span>
 
-Please make the following correction in the starter code in your repository:
+Not all repositories had starter code pushed, and the ones that did had an error. __Before starting your work...__ you have to do one of two things:
 
-* in `app.js`
-* move the line `app.use(express.urlencoded({extended: false}));`
-* so that it's before `const placesRoutes = require('./routes/places');`
-* see @491 on piazza for original student post
+1. if you don't have the code, download the starter version (that already contains the correction outlined below) here:
+    * [homework08-starter-restaurants.zip](homework08-starter-restaurants.zip)
+2. however, if you already have code in your repository, please make the following correction:
+    * in `app.js`
+    * move the line `app.use(express.urlencoded({extended: false}));`
+    * so that it's before `const placesRoutes = require('./routes/places');`
+    * see @491 on piazza for original student post
 
 
 ## Overview
