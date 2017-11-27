@@ -1,12 +1,9 @@
 	<td markdown="block">
-* Previous class on AJAX post
+* Labs This Week and Next!
+    * Will Count as Quiz Grades
 * Previous class on Promises
-* AJAX Polling Code Examples to be Posted
-    * AJAX Polling Chat
-    * AJAX Polling Using Date and Time
 * Realtime Apps with Socket.io
     * [Socket.io](slides/23/socketio.html)
-    * Example Code for Socket.io Chat to be Posted
 
 
 {% comment %}

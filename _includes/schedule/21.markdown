@@ -4,8 +4,6 @@
 * Previous class on Promises
 * AJAX Polling
 * [Example Code for AJAX Polling / Chat](code/chat.zip)
-* Realtime Apps with Socket.io
-    * [Socket.io](slides/23/socketio.html)
 
 {% comment %}
 * [Example Code for AJAX Post](https://github.com/nyu-csci-ua-0480-001-fall-2016/examples/blob/master/class24/ajax-chat/public/javascripts/chatTime.js#L51)
