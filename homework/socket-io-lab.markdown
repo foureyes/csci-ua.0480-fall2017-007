@@ -12,7 +12,7 @@ title: CSCI-UA.0480 - Socket IO Lab
 ## Submission Process
 
 * work in groups of 2 or 3
-* __submit using [this form](https://docs.google.com/a/nyu.edu/forms/d/e/1FAIpQLSdgAevTOMytBZfSEGmmfLuENQgvek0B7g0WA7J-q-WFjl_07g/viewform)__
+* __submit using [this form](https://docs.google.com/forms/d/e/1FAIpQLSeaycESjcV2a4-OPIex4a3GNlowyobjUwApKxi5RIIFLmqUEw/viewform)__
 * __each person on the team should submit their own individual form__
 
 ## Scoring
@@ -64,12 +64,17 @@ npm install --save express socket.io
 </code></pre>
 3. use this boilerplate code for the server (perhaps in server.js or app.js):
     <pre><code data-trim contenteditable>
-var express = require('express');
-var app = express();
-var server = require('http').Server(app);
-var io = require('socket.io')(server);
+const express = require('express');
+const app = express();
+const server = require('http').Server(app);
+const io = require('socket.io')(server);
+
 app.use(express.static('public'));
+
 // server code goes here!
+// first listen for connection using io.on
+// then... within callback, use socket.on, socket.emit, socket.broadcast, etc.
+
 // NOTE THAT WE ARE LISTENING WITH server, NOT app!
 server.listen(3000);
 </code></pre>
@@ -105,7 +110,7 @@ server.listen(3000);
 2. fill out package.json with socket.io and express requirements
 3. add/modify necessary files!
     * for example...
-    * modify `server.js` (make sure you're listetning with
+    * modify `server.js` (make sure you're listening with
     * add `public/racer.html`
     * change the name of `public/client.js` to `public/racer.js`
     * etc.

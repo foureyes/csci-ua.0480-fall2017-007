@@ -355,9 +355,7 @@ show react basics
 {% comment %} consolidate React stuff here maybe from 26 and 27, including build tools {% endcomment %}
 
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
 {% include schedule/23.markdown %}
-{% endcomment %}
 </tr>
 
 
