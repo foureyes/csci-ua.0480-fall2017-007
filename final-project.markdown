@@ -244,18 +244,13 @@ Note - this due date may change!
 <br>
 <br>
 
-### __12/4 11PM__ - Final Project Complete and Code is fully  _Deployed_ 
-{% comment %}
+### __12/4 11PM__ - Final Project Complete and Code is fully  _Deployed_  
 
-* __all commits must be in by Thursday, April 27th__ (repositories will be closed early Friday morning)
-* __project must be deployed__ on i6 (or other platform, such as Heroku, gomix, zeit, etc.)
-    * if your application needs to be restarted while being graded; I will contact you
-    * you will not receive a penalty for restarting after the due date
-* __the [final project form submission](https://docs.google.com/forms/d/e/1FAIpQLScDIpNZn5ttc1vyeWiUR4WaH0murjAwrtBcl3i6AkOaab-VQw/viewform) must be filled out__ (if a form is not submitted, you will receive a 0 for your project)
-* late submissions:
-    * +2 days 
-    * 20% penalty
-    * a late submission form will be posted 
+* __all commits must be in by Monday, Dec 4th (repositories and forms will be closed 24 hours after due date to allow for late submissions) 
+* __project must be deployed__ on cims servers (or other platform, such as Heroku, gomix, zeit, etc.)     
+	* if your application needs to be restarted while being graded; I will contact you     
+	* you will not receive a penalty for restarting after the due date 
+* __the [final project form submission](https://docs.google.com/forms/d/e/1FAIpQLScDWlGGmILdY2SnW1RWdcsvMrBo4yr9ngayesr7FQ3gn6DvdQ/viewform) must be filled out__ (if a form is not submitted, you will receive a 0 for your project)
 
 <br>
 <br>
