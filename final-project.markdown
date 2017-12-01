@@ -257,7 +257,6 @@ Note - this due date may change!
 <br>
 
 <a name="suggestions">
-{% endcomment %}
 
 {% comment %}
 ## Potential Projects
