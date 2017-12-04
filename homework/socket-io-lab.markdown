@@ -104,10 +104,10 @@ server.listen(3000);
 ### Deploying to glitch.com
 
 1. [go to glitch.com/edit](https://glitch.com/edit/)
-2. fill out package.json with socket.io and express requirements
+2. modify the existing `package.json` so that it has both socket.io and express as requirements (but keep everything else the same)
 3. add/modify necessary files!
     * for example...
-    * modify `server.js` (make sure you're listening with
+    * modify `server.js` (make sure you're listening with server obj)
     * add `public/racer.html`
     * change the name of `public/client.js` to `public/racer.js`
     * etc.

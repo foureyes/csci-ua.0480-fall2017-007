@@ -1,13 +1,12 @@
 	<td markdown="block">
 
-* [Out-of-Class Review times form!](https://goo.gl/forms/KDHsiqiSgVBFGSu23)
+* Out-of-Class Review times! (See piazza)
     * 2 reviews
     * time pending room bookings
-* Final project is due on Thursday at 11pm!
+* Final project is due on Tonight at 11pm!
     * [rubric](final-project.html)
     * [full submission details](final-project.html#final_submit)
-    * [use this form to submit](https://docs.google.com/a/nyu.edu/forms/d/e/1FAIpQLSfUNe5P9bzNBA1Z03b6NDeZEXe2qRRYBeewNWN1VnbLSkwgQQ/viewform)
-    * push your code and redeploy 
+    * late submissions allowed with no penalty, up to 24 hours after due date
 * [React Basics](slides/26/react.html)
 * [React Revisited](slides/26/react-state-parent.html)
 * (Optional) [React and Express / Using Webpack](slides/26/react-webpack-continued.html)
@@ -35,8 +34,8 @@
 
 __Reminders__: 
 
-* React Lab on Wednesday, 4/26
-* __Final Project Due 4/27 at 11pm__
-* Final Exam 5/8
+* __Final Project Due Tonight, 12/4 at 11pm__
+* React Lab on Wednesday, 12/6
+* Final Exam 12/13
 
 </td>

@@ -365,9 +365,7 @@ show react basics
 <td markdown="block">
 * Frontend Framework
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
 {% include schedule/24.markdown %}
-{% endcomment %}
 </tr>
 
 
