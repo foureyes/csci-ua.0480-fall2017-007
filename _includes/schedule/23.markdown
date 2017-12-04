@@ -44,6 +44,11 @@
 
 </td>
 	<td markdown="block">
+Due 12/4 at 11pm
+
+* [final project instructions](final-project.html#final_submit)
+* [submit final project using this form](https://docs.google.com/forms/d/e/1FAIpQLScDWlGGmILdY2SnW1RWdcsvMrBo4yr9ngayesr7FQ3gn6DvdQ/viewform)
+
 Due __today__ while you're in class:
 
 * [Socket IO Lab](homework/socket-io-lab.html)
