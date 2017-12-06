@@ -1,7 +1,17 @@
 	<td markdown="block">
 
+* [React Basics](slides/26/react.html) (from previous class)
+* [React Revisited](slides/26/react-state-parent.html) (from previous class)
+* [React and Express / Using Webpack](slides/26/react-webpack-continued.html)
 * React review, multiple child clickers and forms
 * React lab demo
+
+Practice Questions
+
+* [Practice Questions](resources/handouts/final/final_exam_practice.pdf)
+* [Practice Questions Solutions](resources/handouts/final/final_exam_practice_solutions.pdf)
+* [Practice Questions Set 2](resources/handouts/final/final_exam_practice_2.pdf)
+* [Practice Questions Set 2 Solutions](resources/handouts/final/final_exam_practice_2_solutions.pdf)
 
 {% comment %}
 * [es6/es2015/esnext](slides/25/es6.html) 
@@ -28,5 +38,5 @@
 Due __today__ while you're in class:
 
 * [React Lab](homework/react-lab.html)
-    * [Form to submit](https://docs.google.com/a/nyu.edu/forms/d/e/1FAIpQLSeyWVIq2ymcFrsLWf5bB6APGDreDIbb3AqJlf9Cqx413Aa97w/viewform)
+    * [Form to submit](https://docs.google.com/forms/d/e/1FAIpQLSdaxXbyGHRuGorUI2WXl-5SVcYAR8K-NuEys35NtCrRMDJvdA/viewform)
 </td>
