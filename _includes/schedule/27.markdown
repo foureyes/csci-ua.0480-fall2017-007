@@ -1,6 +1,13 @@
 	<td markdown="block">
 
+* Webpack Perhaps?
+* MOAR REVIEW
+* Internship
+* Grading
+
+{% comment %}
 Review based on your questions!
+{% endcomment %}
 
 {% comment %}
 * <strike>[Flexbox](slides/22/flexbox.html)</strike> (skipped)

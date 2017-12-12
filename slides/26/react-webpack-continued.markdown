@@ -2,6 +2,9 @@
 layout: slides
 title: ""
 ---
+
+{% comment %}
+
 <section markdown="block">
 ## Where We Left Off
 
@@ -84,14 +87,15 @@ __What's the difference between <code>props</code> and <code>state</code>?__ &ra
 * {:.fragment} props are immutable (you can set it when creating a component, but you can't change it afterwards)
 
 </section>
+{% endcomment %}
 
 <section markdown="block">
-## Integrating with Express (Out of Codepen / JSbin)
+## Integrating with Express 
 
-Sooo... how do you think we could serve up our small React client side examples through Express? __What would we minimally need to do to even start a React app?__ &rarr;
+(Without Codepen / JSbin / Glitch / create-react-app) Sooo... how do you think we could serve up our small React client side examples through Express? __What would we minimally need to do to even start a React app?__ &rarr;
 
 * {:.fragment} include the react library in our client side code
-* {:.fragment} _serve_ any of the components that we create in...
+* {:.fragment} _serve_ any of the components that we create 
 </section>
 
 <section markdown="block">
@@ -187,7 +191,8 @@ This _is_ valid JSX, right? It works on Codepen... __so what do you think happen
 
 [Babel](https://babeljs.io/) is a set of tools that allows you to use __new JavaScript__ syntax, now, __even if browsers don't support it yet__!!! YES. THE FUTURE IS NOW!
 
-* it transforms new syntax from ES6/ES2015 to ES5... so that you can write ES6 without having to wait for full browser support
+* it transforms syntax from ES6/ES2015, ES2016, ES2017, etc. to plain ol' ES5... 
+* ...so that you can write ES6 without having to wait for full browser support 🙌
 * ...and, of course, __it'll compile JSX to plain JavaScript__
 </section>
 
@@ -211,13 +216,11 @@ Things would be pretty easy if we could just use babel or some other transformer
 So... all signs point to the fact that compiling in browser is a bad idea, (sigh, yes, it is).
 
 * [facebook says so (don't use JSX-Transformer)](https://facebook.github.io/react/blog/2015/06/12/deprecating-jstransform-and-react-tools.html)
-* [the link that facebook says would replace their in-browser transformer is also deprecated](https://babeljs.io/docs/usage/browser/)
+* [this project exists is folded into babble, but it lists out very specific use cases](https://github.com/Daniel15/babel-standalone)
 
-<br>
+There's probably a reason why everyone says avoid in-browser transform... __why__ &rarr;
+{:.fragment}
 
-A tiny glimmer of hope...  [this project exists](https://github.com/Daniel15/babel-standalone)
-
-* however, there's probably a reason why everyone's avoid in-browser transform... __why__ &rarr;
 * {:.fragment} facebook docs say "(the JSX transformer) is fairly large and results in extraneous computation client-side that can be avoided - do not use it in production"
 * {:.fragment} we really only want to transform once (not once per client!)
 * {:.fragment} why transform on the client for every user (slowing down the user experience), when we can just transform once on the server by precompiling before deploy!?
@@ -229,7 +232,7 @@ A tiny glimmer of hope...  [this project exists](https://github.com/Daniel15/bab
 ## Ohhh Kaaay. So Now What?
 
 
-So here's where things get kind of complicated. We'll need:
+__So here's where things get kind of complicated. We'll need:__ &rarr;
 
 * __babel__ to do the processing
 * __and some tool to find the files that need processing__, and apply the transformation to those files
@@ -383,14 +386,14 @@ Create a directory in our project folder that will contain all of our components
 In <code>components/MyComponent.js</code>:
 
 <pre><code data-trim contenteditable>
-var React = require(&#x27;react&#x27;);
-var MyComponent = React.createClass({
-&#x9;render: function() {
+const React = require(&#x27;react&#x27;);
+class MyComponent extends React.Component {
+&#x9;render() {
 &#x9;&#x9;return (
 &#x9;&#x9;&#x9;&#x3C;h1&#x3E;Hello&#x3C;/h1&#x3E;
 &#x9;&#x9;);
 &#x9;}
-});
+}
 module.exports = MyComponent;
 </code></pre>
 
@@ -400,13 +403,13 @@ module.exports = MyComponent;
 
 Our entry point will just be a file in the project directory called <code>client.js</code>. __Within it, we can mount the component that we created to our DOM.__ &rarr;
 
-* require the React libraries
-* require our component
+* `require` the React libraries
+* `require` our component
 
 <pre><code data-trim contenteditable>
-var React = require(&#x27;react&#x27;);
-var ReactDOM = require(&#x27;react-dom&#x27;);
-var MyComponent = require(&#x27;./components/MyComponent&#x27;);
+const React = require(&#x27;react&#x27;);
+const ReactDOM = require(&#x27;react-dom&#x27;);
+const MyComponent = require(&#x27;./components/MyComponent&#x27;);
 ReactDOM.render(&#x3C;MyComponent /&#x3E;, document.getElementById(&#x27;app&#x27;));
 
 </code></pre>
@@ -418,7 +421,7 @@ ReactDOM.render(&#x3C;MyComponent /&#x3E;, document.getElementById(&#x27;app&#x2
 The webpack configuration file is called <code>webpack.config.js</code>. This will be in the root of your project directory.
 
 <pre><code data-trim contenteditable>
-var path = require('path');
+const path = require('path');
 module.exports = {
   // configure the entry point
   // where to output the bundle of static assets
@@ -469,7 +472,7 @@ __Specify our loaders (the transformations we'll be using...)__ &rarr;
     loaders: [ {
       // no need to run babel on app and node_modules 
       exclude: /node_modules|app.js|routes/,
-      loader: 'babel',
+      loader: 'babel-loader',
       query: { presets:['react'] }
     }] 
   }
@@ -481,15 +484,25 @@ __Specify our loaders (the transformations we'll be using...)__ &rarr;
 
 In the root of your project folder, just run webpack... aaand hopefully we'll find a new <code>js</code> file in <code>public/javascripts</code>
 
+__Running webpack:__ &rarr;
+{:.fragment}
+
 <pre><code data-trim contenteditable>
 webpack
 # magic
 </code></pre>
+{:.fragment}
+
+__Checking if it created bundle.js:__ &rarr;
+{:.fragment}
 
 <pre><code data-trim contenteditable>
 ls public/javascripts
 # hopefully bundle.js
 </code></pre>
+{:.fragment}
+
+
 
 </section>
 
@@ -544,10 +557,10 @@ if(process.env.NODE_ENV === 'development') {
     // configure webpack-dev-middlware with our original webpack config
     // then... "use" webpack-dev-middleware
 
-    var webpackDevMiddleware = require("webpack-dev-middleware");
-    var webpackConfig = require('./webpack.config.js')
-    var webpack = require("webpack");
-    var compiler = webpack(webpackConfig);
+    const webpackDevMiddleware = require("webpack-dev-middleware");
+    const webpackConfig = require('./webpack.config.js')
+    const webpack = require("webpack");
+    const compiler = webpack(webpackConfig);
     app.use(webpackDevMiddleware(compiler, {
         publicPath:'/javascripts'
     }));
