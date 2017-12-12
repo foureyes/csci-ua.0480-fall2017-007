@@ -385,20 +385,19 @@ show react basics
 <a name="26"></a>
 <tr><td>26</td><td><strong>Dec 11</strong><br>Mon</td>
 <td markdown="block">
-* Maybe Flexbox
-* Maybe CSS Meta Languages
 
+* Review
 </td>
-<td></td><td></td><td markdown="block"></td>{% comment %}
 {% include schedule/26.markdown %}
-{% endcomment %}
 </tr>
 
 
 <!-- ------------ -->
 <tr><td>27</td><td><strong>Dec 12</strong><br>Tue</td>
 <td markdown="block">
-* Review
+* Maybe Webpack
+* Maybe Flexbox
+* Maybe CSS Meta Languages
 </td>
 <td></td><td></td><td markdown="block"></td>{% comment %}
 {% include schedule/27.markdown %}
